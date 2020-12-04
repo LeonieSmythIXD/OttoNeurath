@@ -1,0 +1,11 @@
+/*------- GLOBAL STYLING-------*/
+body{
+    color: black;
+        font-style: normal;
+}
+
+section{
+    width: 80%;
+    max-width: 800px;
+    margin: auto;
+}
