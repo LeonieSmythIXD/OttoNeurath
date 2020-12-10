@@ -13,12 +13,14 @@ body {
     max-width: 760px;
     margin: auto;
     background-color: cornsilk;
-color: #333;    
+color: #333; 
+    
 }
+
 
 /*----- TYPOGRAPHY -----*/
 h1, h2 {
-    font-weight: normal;
+    font-weight: bold;
     color: crimson;
     text-align: center;
     font-family: 'Libre Baskerville', serif;
@@ -30,14 +32,31 @@ p, blockquote {
 }
 
 h1 {
-    font-size: 1.999em;
+    font-size: 2em;
     margin-top: 3em;
-    margin-bottom: 01em;
+    margin-bottom: 1em;
+    padding: 1em;
 }
 
 h2{
     font-size: 1.141em;
     margin: 3em 0 1em 0;
+    padding: 1em 0px
+}
+
+
+
+ 
+ol {
+    text-align: left;
+    position: absolute fixed;
+    padding: 1em 2em;
+    width; 100%
+     text-align: center;
+    text-transform: lowercase;
+    margin-top: 2em;
+    margin-bottom: 1.141em;
+    line-height: 3.6;  
 }
 
 blockquote {
@@ -61,6 +80,28 @@ header h2 {
 header p {
     font-size: 1.141em;
 }
+
+
+
+
+/*------------IMAGES------------*/
+
+ header img {
+    display: block;
+    margin-left: auto;
+    margin: auto;
+    }
+
+
+img {
+   max-width: 100%;
+    height: auto;
+
+}
+
+
+
+
 
 /*---------STYLING LINES ---------*/
 a {
