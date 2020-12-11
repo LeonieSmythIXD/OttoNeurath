@@ -34,12 +34,12 @@ p, blockquote {
 h1 {
     font-size: 2em;
     margin-top: 3em;
-    margin-bottom: 1em;
-    padding: 1em;
+    margin-bottom: 0em;
+    padding: 0.5em;
 }
 
 h2{
-    font-size: 1.141em;
+    font-size: 1.5em;
     margin: 3em 0 1em 0;
     padding: 1em 0px
 }
@@ -78,7 +78,7 @@ header h2 {
 }
 
 header p {
-    font-size: 1.141em;
+    font-size: 1.121em;
 }
 
 
@@ -90,12 +90,17 @@ header p {
     display: block;
     margin-left: auto;
     margin: auto;
+     width: 40%;
     }
 
 
 img {
    max-width: 100%;
     height: auto;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 70%;
 
 }
 
